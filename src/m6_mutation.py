@@ -129,8 +129,9 @@ def RETURN_replace_negatives_by_zeros(numbers):
 
     Precondition: The argument is a list of numbers.
     """
-    numbers1=numbers
-    for k in range(len(numbers1)):
+    numbers1=[]
+    for k in range(len(numbers)):
+        numbers1=numbers1+[numbers[k]]
         if numbers1[k]<0:
             numbers1[k]=0
     return numbers1
