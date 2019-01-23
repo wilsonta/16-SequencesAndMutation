@@ -172,7 +172,7 @@ def RETURN_circle(circle, color):
     newcircle=circle.clone()
     newcircle.fill_color=color
     return newcircle
-    # DONE: 2. First, READ THE ABOVE TEST CODE.
+    # DON: 2. First, READ THE ABOVE TEST CODE.
     #          Make sure that you understand it.
     #          Then, IMPLEMENT and test THIS FUNCTION
     #          (using the above code for testing).
